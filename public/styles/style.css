@@ -1,0 +1,43 @@
+body {
+margin: 0;
+}
+
+.searchArtist {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(../images/spotify-background.jpeg);
+height: 100vh;
+background-size: cover;
+
+}
+
+#seachForm {
+background-color: aliceblue;
+height: 50vh;
+width: 30vw;
+}
+
+.searchArtist button {
+font-size: 15px;
+background-color:tomato;
+color: #fff;
+padding: 10px 20px;
+border: 0;
+box-shadow: 0;
+align-self: center;
+width: 20vw;
+}
+
+/* .searchArtist label {
+    font-size: 15px;
+   background-color: aliceblue;
+    color: #fff;
+    padding: 30px 40px;
+    border: 0;
+    box-shadow: 0;
+    align-self: center;
+    width: 50vw;  
+} */
+

@@ -1,0 +1,9 @@
+<h1>Hello</h1>
+<% artistAll.forEach(artist => { %>
+<h3><%= artist.name %></h3>
+<% if (!artist.images.length){ %>
+    <img
+} elese
+<% artist.images.forEach((image) => { %>
+<img src="<%= image.url %>" alt="image" />
+<% }) %> <% }); %>
